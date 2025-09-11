@@ -2,14 +2,29 @@ body {
     background-color: #4e81adad; /* Alice Blue */
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row {
-    display: flex;
-  }
+
+
+div.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+div.row {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+div.inner_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
