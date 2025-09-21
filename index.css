@@ -2,25 +2,20 @@ body {
     background-color: #4e81adad; /* Alice Blue */
 }
 
-
-
-div.total {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid gray;
-}
-
 div.row {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
 }
+
 div.inner_row {
   display: flex;
+  min-height: 10;
+  margin: 0;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
